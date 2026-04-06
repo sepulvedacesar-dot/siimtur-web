@@ -1,3 +1,16 @@
+import streamlit as st
+
+st.markdown("""
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2LFB8Q2RL"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-M2LFB8Q2RL');
+</script>
+""", unsafe_allow_html=True)
+
 import warnings
 warnings.filterwarnings("ignore")
 
