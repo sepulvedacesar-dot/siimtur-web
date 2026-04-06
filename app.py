@@ -4,14 +4,21 @@ import streamlit.components.v1 as components
 GA_ID = "G-M2LFB8Q2RL"
 
 components.html(f"""
-<!-- Google tag (gtag.js) -->
+<!DOCTYPE html>
+<html>
+<head>
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){{dataLayer.push(arguments);}}
 gtag('js', new Date());
-gtag('config', '{GA_ID}');
+gtag('config', '{GA_ID}', {{
+  'page_path': window.location.pathname
+}});
 </script>
+</head>
+<body></body>
+</html>
 """, height=0)
 
 import warnings
