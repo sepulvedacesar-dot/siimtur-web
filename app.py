@@ -478,7 +478,6 @@ with st.sidebar:
             <div class="profile-link">🎓 <a href="{SCHOLAR_URL}" target="_blank">Google Scholar</a></div>
             <div class="profile-link">📚 <a href="{SCOPUS_URL}" target="_blank">Scopus</a></div>
             <div class="profile-link">💼 <a href="{LINKEDIN_URL}" target="_blank">LinkedIn</a></div>
-            <div class="profile-link">🐦 <a href="{TWITTER_URL}" target="_blank">Twitter/X</a></div>
             <div class="profile-link">✉️ <a href="{EMAIL_URL}">Email</a></div>
         </div>
         """,
@@ -556,7 +555,6 @@ st.markdown(
         <a href="{SCHOLAR_URL}" target="_blank">Google Scholar</a> ·
         <a href="{SCOPUS_URL}" target="_blank">Scopus</a> ·
         <a href="{LINKEDIN_URL}" target="_blank">LinkedIn</a> ·
-        <a href="{TWITTER_URL}" target="_blank">Twitter/X</a>
     </div>
     """,
     unsafe_allow_html=True
@@ -1258,7 +1256,6 @@ st.markdown(
             <a href="{SCHOLAR_URL}" target="_blank">Google Scholar</a> ·
             <a href="{SCOPUS_URL}" target="_blank">Scopus</a> ·
             <a href="{LINKEDIN_URL}" target="_blank">LinkedIn</a> ·
-            <a href="{TWITTER_URL}" target="_blank">Twitter/X</a>
         </div>
         <div style="margin-top: 8px; font-size: 0.7rem;">
             Dr. César Omar Sepúlveda Moreno · Profesor Investigador · Análisis de datos, competitividad e inteligencia de mercados turísticos
