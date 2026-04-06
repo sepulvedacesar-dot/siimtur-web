@@ -541,9 +541,9 @@ titulo_metrica = mapa_titulos.get(metrica_principal, metrica_principal)
 # =========================================================
 # ENCABEZADO
 # =========================================================
-st.markdown('<div class="main-title">SIIMTUR PROFESSIONAL</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">SIIMTUR </div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="subtitle">Plataforma integral de visualización, análisis y apoyo estratégico para mercados turísticos</div>',
+    '<div class="subtitle">Sistema Integral de Inteligencia de Mercados Turísticos</div>',
     unsafe_allow_html=True
 )
 
