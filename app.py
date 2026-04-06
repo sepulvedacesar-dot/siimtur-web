@@ -1,15 +1,18 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
-st.markdown("""
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2LFB8Q2RL"></script>
+GA_ID = "G-M2LFB8Q2RL"
+
+components.html(f"""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
+function gtag(){{dataLayer.push(arguments);}}
 gtag('js', new Date());
-gtag('config', 'G-M2LFB8Q2RL');
+gtag('config', '{GA_ID}');
 </script>
-""", unsafe_allow_html=True)
+""", height=0)
 
 import warnings
 warnings.filterwarnings("ignore")
