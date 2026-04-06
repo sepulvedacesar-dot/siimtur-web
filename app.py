@@ -29,7 +29,7 @@ except Exception:
 # CONFIGURACIÓN
 # =========================================================
 st.set_page_config(
-    page_title="SIIMTUR PROFESSIONAL",
+    page_title="SIIMTUR",
     page_icon="🏨",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -42,7 +42,6 @@ ORCID_URL = "https://orcid.org/0000-0003-3594-0038"
 SCOPUS_URL = "https://www.scopus.com/authid/detail.uri?authorId=57952261200"
 SCHOLAR_URL = "https://scholar.google.com/citations?user=ZPSfApAAAAAJ&hl=es"
 LINKEDIN_URL = "https://www.linkedin.com/in/cesar-omar-sepulveda-moreno-137a1210/"
-TWITTER_URL = "https://x.com/DrCESAR_SEPULVE"
 EMAIL_URL = "mailto:cesar.sepulveda@uabc.edu.mx"
 
 MESES = {
@@ -1197,7 +1196,6 @@ with tab_autor:
             <div class="profile-link">🎓 <a href="{SCHOLAR_URL}" target="_blank">Google Scholar</a></div>
             <div class="profile-link">📚 <a href="{SCOPUS_URL}" target="_blank">Scopus Author ID: 57952261200</a></div>
             <div class="profile-link">💼 <a href="{LINKEDIN_URL}" target="_blank">LinkedIn</a></div>
-            <div class="profile-link">🐦 <a href="{TWITTER_URL}" target="_blank">Twitter/X: @DrCESAR_SEPULVE</a></div>
             <div class="profile-link">✉️ <a href="{EMAIL_URL}">cesar.sepulveda@uabc.edu.mx</a></div>
         </div>
         """,
